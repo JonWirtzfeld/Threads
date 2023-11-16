@@ -12,3 +12,13 @@ To compile Threads on Ubuntu, run the following command:
 and run with:
 
 `./Threads <number of threads> <number of increments>`
+
+Example:
+```
+> ./Threads 2 2
+Sleeping for 10 seconds...
+Thread #0, value: 0
+Thread #1, value: 1
+Thread #0, value: 2
+Thread #1, value: 3
+```
